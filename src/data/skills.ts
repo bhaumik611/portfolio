@@ -1,0 +1,58 @@
+export const categories = [
+  {
+    id:    'languages',
+    label: 'Languages',
+    tag:   '01',
+    color: '#00ff88',
+    skills: [
+      { name: 'Python',     level: 95, note: 'Primary — ML, APIs, scripting, data'  },
+      { name: 'JavaScript', level: 85, note: 'React, Node, Next.js, full-stack'      },
+      { name: 'TypeScript', level: 78, note: 'Type-safe frontend & backend'          },
+      { name: 'C++',        level: 72, note: 'DSA, competitive programming'          },
+      { name: 'Java',       level: 68, note: 'OOP fundamentals, backend basics'      },
+      { name: 'SQL',        level: 80, note: 'MySQL, PostgreSQL, query optimization' },
+    ],
+  },
+  {
+    id:    'ml',
+    label: 'ML / AI',
+    tag:   '02',
+    color: '#a78bfa',
+    skills: [
+      { name: 'PyTorch',          level: 85, note: 'Training, custom architectures, GNNs' },
+      { name: 'HuggingFace',      level: 88, note: 'Transformers, embeddings, fine-tuning' },
+      { name: 'TensorFlow',       level: 78, note: 'Model building, Keras, deployment'     },
+      { name: 'Scikit-learn',     level: 82, note: 'Classical ML, pipelines, evaluation'   },
+      { name: 'Deep Learning',    level: 83, note: 'CNN, RNN, Transformers, attention'      },
+      { name: 'NLP',              level: 87, note: 'Intent classification, RAG, LLMs'       },
+    ],
+  },
+  {
+    id:    'stack',
+    label: 'Full-Stack',
+    tag:   '03',
+    color: '#0ea5e9',
+    skills: [
+      { name: 'React / Next.js', level: 88, note: 'SSR, app router, reusable components' },
+      { name: 'Node.js',         level: 80, note: 'Express, REST APIs, event-driven'      },
+      { name: 'FastAPI',         level: 85, note: 'Async APIs, background tasks, docs'    },
+      { name: 'MySQL/PostgreSQL',level: 78, note: 'Schema design, joins, optimization'    },
+      { name: 'TailwindCSS',     level: 90, note: 'Utility-first, responsive, fast'       },
+      { name: 'Docker',          level: 65, note: 'Containerization, compose basics'      },
+    ],
+  },
+  {
+    id:    'systems',
+    label: 'Systems',
+    tag:   '04',
+    color: '#f59e0b',
+    skills: [
+      { name: 'DSA',                level: 85, note: 'Trees, graphs, DP, segment trees'  },
+      { name: 'System Design',      level: 75, note: 'Scalability, caching, queues'       },
+      { name: 'Operating Systems',  level: 74, note: 'Processes, memory, scheduling'      },
+      { name: 'DBMS',               level: 80, note: 'Normalization, indexing, ACID'      },
+      { name: 'Git & GitHub',       level: 85, note: 'Version control, branching, PRs'    },
+      { name: 'Agile / Scrum',      level: 78, note: 'Sprints, standups, delivery cycles' },
+    ],
+  },
+]

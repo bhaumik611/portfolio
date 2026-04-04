@@ -1,0 +1,55 @@
+import { Briefcase, Users, Zap } from 'lucide-react'
+
+export const experiences = [
+  {
+    icon:    Zap,
+    role:    'Founding Partner',
+    company: 'Tatvam AI',
+    period:  'April 2025 — November 2025',
+    type:    'Startup',
+    color:   '#00ff88',
+    glow:    'rgba(0,255,136,0.1)',
+    desc:    'Co-founded an LLM startup focused on making AI genuinely work for Indian languages. Led LLM strategy, dataset design, and technical partnerships for scalable data collection.',
+    points: [
+      '1st place out of 85+ teams at PDEU Business Plan Pitch',
+      'Recognized by GoaMiles Founder for innovation & scalability',
+      'Built multi-model intent classification system across 9+ LLM backends',
+      'Led technical direction, dataset design, and partner outreach',
+    ],
+    link: 'https://github.com/bhaumik611',
+  },
+  {
+    icon:    Users,
+    role:    'Chief Coordinator',
+    company: 'Bulls & Bears Finance Club, PDEU',
+    period:  'August 2023 — Present',
+    type:    'Leadership',
+    color:   '#a78bfa',
+    glow:    'rgba(167,139,250,0.1)',
+    desc:    'Elected leader of a 150+ member finance community at PDEU. Previously served as Tech & IT Member (2023–24). Directed cross-functional teams across workshops, market sessions, and inter-university events.',
+    points: [
+      '40% event participation growth, 25% member increase',
+      '30% faster event setup through automated workflows',
+      'Secured 2 industry partnerships',
+      'Directed 5+ cross-functional teams across events and digital ops',
+    ],
+    link: '#',
+  },
+  {
+    icon:    Briefcase,
+    role:    'Researcher & Inventor',
+    company: 'Independent Research',
+    period:  '2023 — Present',
+    type:    'Research',
+    color:   '#0ea5e9',
+    glow:    'rgba(14,165,233,0.1)',
+    desc:    'Filed 3 patents and authored 3 research papers currently under review — spanning IoT systems, medical imaging, precision agriculture, and deep learning frameworks.',
+    points: [
+      'Patent Filed: TrackNControl — IoT-based smart vehicle monitoring',
+      'Patent Filed: MicroSight — plankton safety monitoring system',
+      'Patent Filed: FarmaSpray — smart crop disease detection system',
+      '3 research papers under review in deep learning & medical AI',
+    ],
+    link: '#',
+  },
+]
