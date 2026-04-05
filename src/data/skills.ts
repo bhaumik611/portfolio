@@ -8,7 +8,7 @@ export const categories = [
       { name: 'Python',     level: 95, note: 'Primary — ML, APIs, scripting, data'  },
       { name: 'JavaScript', level: 85, note: 'React, Node, Next.js, full-stack'      },
       { name: 'TypeScript', level: 78, note: 'Type-safe frontend & backend'          },
-      { name: 'C++',        level: 72, note: 'DSA, competitive programming'          },
+      { name: 'C',        level: 72, note: 'DSA, competitive programming'          },
       { name: 'Java',       level: 68, note: 'OOP fundamentals, backend basics'      },
       { name: 'SQL',        level: 80, note: 'MySQL, PostgreSQL, query optimization' },
     ],
