@@ -227,7 +227,7 @@ export default function Hero() {
               display:      'block',
               animation:    'pulse 2s ease infinite',
             }} />
-            Open to Opportunities · Graduating 2026
+            Open to Opportunities · Graduating 2027
           </span>
         </motion.div>
 
@@ -248,11 +248,7 @@ export default function Hero() {
         >
           Bhaumik
           <br />
-          <span style={{
-            WebkitTextStroke: '1px rgba(255,255,255,0.15)',
-            color:            'transparent',
-            display:          'block',
-          }}>
+          <span className="stroke-text" style={{ display: 'block' }}>
             Patel
           </span>
         </motion.h1>
@@ -382,8 +378,8 @@ export default function Hero() {
           style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}
         >
           {[
-            { icon: Github,   href: 'https://github.com/bhaumikpatel',      label: 'GitHub'   },
-            { icon: Linkedin, href: 'https://linkedin.com/in/bhaumikpatel', label: 'LinkedIn' },
+            { icon: Github,   href: 'https://github.com/bhaumik611',      label: 'GitHub'   },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/bhaumik-patel-bbb79635b/', label: 'LinkedIn' },
           ].map(({ icon: Icon, href, label }) => (
             <motion.a
               key={label}

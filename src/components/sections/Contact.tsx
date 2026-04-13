@@ -459,7 +459,7 @@ export default function Contact() {
                 lineHeight: 1.6,
               }}>
                 Open to internships, research roles, and founding team positions.
-                Graduating mid-2026 — let's talk early.
+                Graduating mid-2027 — let's talk early.
               </p>
             </motion.div>
 

@@ -81,6 +81,16 @@ body {
   background: rgba(255,255,255,0.7);
 }
 
+/* Stroke text for theme-aware visibility */
+.stroke-text {
+  -webkit-text-stroke: 1px rgba(255,255,255,0.15);
+  color: transparent;
+}
+
+.light .stroke-text {
+  -webkit-text-stroke: 1px rgba(0,0,0,0.15);
+}
+
 /* Glow effects */
 .glow-accent {
   box-shadow: 0 0 30px var(--accent-glow);

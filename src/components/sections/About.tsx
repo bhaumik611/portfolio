@@ -72,7 +72,7 @@ export default function About() {
             </motion.h2>
 
             {[
-              `I'm Bhaumik — a Computer Engineering student at PDEU, Gandhinagar, graduating in 2026. But honestly, the degree is just the backdrop. What actually defines me is what I've been building on the side.`,
+              `I'm Bhaumik — a Computer Engineering student at PDEU, Gandhinagar, graduating in 2027. But honestly, the degree is just the backdrop. What actually defines me is what I've been building on the side.`,
               `I co-founded Tatvam AI, an LLM startup focused on making AI actually work for Indian languages — not as a side project, but as a real product with real users. I've filed 3 patents, led a 500+ member finance club, and shipped systems ranging from multi-model intent routers to GNN-based materials science pipelines.`,
               `My obsession sits at the intersection of ML depth and systems thinking. I don't just train models — I architect the infrastructure around them, the APIs on top of them, and the products that make them useful. Research, engineering, and product — I refuse to pick just one.`,
             ].map((para, i) => (
@@ -220,7 +220,7 @@ export default function About() {
                   letterSpacing: '2px',
                   textTransform: 'uppercase',
                 }}>
-                  Currently Building
+                  Recently Completed
                 </span>
               </div>
 
@@ -282,7 +282,7 @@ export default function About() {
                 marginTop:  '12px',
               }}>
                 {[
-                  { k: 'Batch', v: '2026' },
+                  { k: 'Batch', v: '2027' },
                   { k: 'CGPA',  v: '8.33' },
                 ].map(({ k, v }) => (
                   <div key={k}>

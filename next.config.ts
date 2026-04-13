@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  outputFileTracingRoot: '/Users/bhaumikpatel/Desktop/bhaumik-portfolio',
   images: {
     domains: [],
   },
