@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react'
 
 const socials = [
-  { icon: Github,   href: 'https://github.com/bhaumikpatel',   label: 'GitHub'   },
-  { icon: Linkedin, href: 'https://linkedin.com/in/bhaumikpatel', label: 'LinkedIn' },
-  { icon: Mail,     href: 'mailto:bhaumik@example.com',         label: 'Email'    },
+  { icon: Github,   href: 'https://github.com/bhaumik611',   label: 'GitHub'   },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/bhaumik-patel-bbb79635b/', label: 'LinkedIn' },
+  { icon: Mail,     href: 'mailto:patelbhaumik6115@gmail.com',         label: 'Email'    },
 ]
 
 export default function Footer() {
