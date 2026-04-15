@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Sun, Moon, Menu, X } from 'lucide-react'
+import { Sun, Moon, Menu, X, Code } from 'lucide-react'
 
 const navLinks = [
   { label: 'About',        href: '#about'        },
@@ -100,6 +100,7 @@ export default function Navbar() {
               flexShrink:  0,
             }}
           >
+            <Code size={16} style={{ marginRight: '6px' }} />
             BP<span style={{ color: 'var(--accent)' }}>.</span>
           </a>
 

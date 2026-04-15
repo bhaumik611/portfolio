@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: 'Bhaumik Patel — ML Engineer & Builder',
   description: 'I design systems that think, learn, and scale. CS student at PDEU building at the intersection of ML, systems, and product.',
   keywords: ['Bhaumik Patel', 'ML Engineer', 'PDEU', 'Tatvam AI', 'Portfolio'],
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
     title: 'Bhaumik Patel — ML Engineer & Builder',
     description: 'I design systems that think, learn, and scale.',

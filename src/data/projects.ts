@@ -156,4 +156,34 @@ export const projects: Project[] = [
     github: 'https://github.com/bhaumik611',
     demo:   '#',
   },
+  {
+    id:       'rag-eval',
+    title:    'Adaptive RAG Evaluation Framework',
+    tagline:  'Benchmark 4 retrieval strategies with LLM-as-judge scoring',
+    stack:    ['FastAPI', 'Python', 'Next.js', 'ChromaDB', 'Ollama', 'HuggingFace', 'PyMuPDF'],
+    color:    '#06b6d4',
+    glow:     'rgba(6,182,212,0.12)',
+    category: 'ML Systems',
+    description:
+      'An adaptive framework that auto-benchmarks 4 RAG retrieval strategies (Naive RAG, HyDE, Re-ranking, Multi-query) using LLM-as-judge scoring across faithfulness, relevance, and correctness metrics. Upload any PDF and get data-driven evidence for which strategy performs best on your specific document.',
+    problem:
+      'Most teams build RAG pipelines and ship them blind — they pick retrieval strategies by intuition with no way to benchmark performance or explain why their system fails on certain questions. RAG evaluation is one of the most unsolved problems in production AI.',
+    approach:
+      'Built a fully automated pipeline: PDF ingestion with PyMuPDF, auto-generation of Q&A eval sets, parallel execution of 4 retrieval strategies, and LLM-as-judge scoring. Created an interactive Next.js frontend displaying ranked leaderboards with per-question breakdowns. Stack is fully local and free — no API costs.',
+    achievements: [
+      'Implemented 4 distinct retrieval strategies (Naive RAG, HyDE, Re-ranking, Multi-query) with comparative benchmarking',
+      'LLM-as-judge scoring across 3 metrics: faithfulness, relevance, correctness',
+      'Auto-generates evaluation questions and ground-truth answers from any PDF corpus',
+      'Full-stack implementation: FastAPI backend + Next.js interactive frontend with live log streaming',
+      'Fully local with Ollama + HuggingFace — zero API dependencies or costs',
+    ],
+    challenges: [
+      'Designing an evaluation framework that works across document types and lengths',
+      'LLM-as-judge consistency and scoring reliability with resource-constrained models',
+      'Real-time streaming of results while orchestrating 4 parallel retrieval pipelines',
+      'Generating meaningful synthetic questions that test actual retrieval capability',
+    ],
+    github: 'https://github.com/bhaumik611/RAG-eval',
+    demo:   '#',
+  },
 ]
